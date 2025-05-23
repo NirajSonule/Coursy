@@ -8,15 +8,15 @@ import Footer from "./layouts/Footer";
 
 const App = () => {
   return (
-    <div className="w-full h-screen flex justify-center items-center bg-zinc-900 font-mono text-center text-white">
+    <div className="w-full h-screen bg-zinc-900 font-mona_sans text-white">
       <div>
         <Header />
-        <Hero />
+        {/* <Hero />
         <Features />
         <Price />
         <Testimonials />
         <Cta />
-        <Footer />
+        <Footer /> */}
       </div>
     </div>
   );
