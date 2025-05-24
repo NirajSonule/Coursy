@@ -11,8 +11,8 @@ const App = () => {
     <div className="w-full h-screen bg-zinc-900 font-mona_sans text-white">
       <div>
         <Header />
-        {/* <Hero />
-        <Features />
+        <Hero />
+        {/* <Features />
         <Price />
         <Testimonials />
         <Cta />

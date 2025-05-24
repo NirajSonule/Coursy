@@ -2,12 +2,12 @@ import Button from "../components/Button";
 
 const Header = () => {
   return (
-    <header className="w-full p-4 flex justify-between items-center">
+    <header className="w-full py-4 px-12 flex justify-between items-center">
       <a href="#">
-        <h2 className="font-medium text-2xl">Coursy!</h2>
+        <h2 className="font-medium font-WDXL text-3xl">Coursy!</h2>
       </a>
       <nav>
-        <ul className="flex items-center gap-12">
+        <ul className="hidden md:flex items-center gap-12">
           <li>
             <a href="#">Home</a>
           </li>
