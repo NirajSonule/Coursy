@@ -1,4 +1,4 @@
-import TestimonalCard from "../components/testimonalCard";
+import TestimonalCard from "../components/TestimonalCard.jsx";
 
 const Testimonials = () => {
   return (
