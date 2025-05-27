@@ -1,4 +1,5 @@
 import Button from "../components/Button";
+import heroImg from "../assets/hero_img.svg";
 
 const Hero = () => {
   return (
@@ -21,8 +22,8 @@ const Hero = () => {
           </div>
         </div>
       </section>
-      <section className="hidden md:flex justify-center items-center">
-        <img src="" alt="Hero-Image" className="object-cover max-w-full" />
+      <section className="hidden md:flex justify-center items-center p-4 lg:p-24">
+        <img src={heroImg} alt="Hero-Image" className="max-w-full" />
       </section>
     </main>
   );
