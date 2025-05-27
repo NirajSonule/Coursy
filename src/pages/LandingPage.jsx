@@ -8,14 +8,14 @@ import Footer from "../layouts/Footer";
 
 const LandingPage = () => {
   return (
-    <div className="w-full h-screen bg-zinc-900 font-mona_sans text-white">
+    <div className="w-full h-full bg-zinc-900 font-mona_sans text-white">
       <Header />
       <Hero />
-      {/* <Features />
-        <Price />
-        <Testimonials />
-        <Cta />
-        <Footer /> */}
+      <Features />
+      <Price />
+      <Testimonials />
+      <Cta />
+      <Footer />
     </div>
   );
 };

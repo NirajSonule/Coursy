@@ -3,13 +3,13 @@ import heroImg from "../assets/hero_img.svg";
 
 const Hero = () => {
   return (
-    <main className="px-12 grid grid-cols-1 md:grid-cols-2 justify-center items-center">
-      <section className="flex items-center text-center md:text-left py-24 sm:py-36 md:py-44">
+    <section className="px-12 grid grid-cols-1 md:grid-cols-2 justify-center items-center">
+      <div className="flex items-center text-center md:text-left py-24 sm:py-36 md:py-44">
         <div>
-          <h2 className="max-w-lg text-2xl md:text-4xl font-bold mb-4">
+          <h2 className="max-w-lg text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
             Learn Anything, Anytime, From the Best
           </h2>
-          <p className="max-w-lg text-xs md:text-sm text-gray-100 mb-8">
+          <p className="max-w-lg text-sm lg:text-md text-gray-100 mb-8">
             Join thousands of learners discovering top-rated courses taught by
             expert tutors—any skill, any level, all in one place.
           </p>
@@ -21,11 +21,11 @@ const Hero = () => {
             </div>
           </div>
         </div>
-      </section>
+      </div>
       <section className="hidden md:flex justify-center items-center p-4 lg:p-24">
         <img src={heroImg} alt="Hero-Image" className="max-w-full" />
       </section>
-    </main>
+    </section>
   );
 };
 
